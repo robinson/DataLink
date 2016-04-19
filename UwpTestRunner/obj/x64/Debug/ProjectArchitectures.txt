@@ -1,0 +1,6 @@
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Core\DataLink.Core.csproj;x64
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Core\DataLink.Core.csproj;x64
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Driver.S7\DataLink.Driver.S7.csproj;x64
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Driver.S7\DataLink.Driver.S7.csproj;x64
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\DataLink.csproj;x64
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\UwpTestRunner\UwpTestRunner.csproj;x64

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="xunit.runner.devices" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="xunit.runner.devices">
+				<NamedResource name="DeviceResources.xaml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/DeviceResources.xaml">
+					<Candidate type="Path">
+						<Value>xunit.runner.devices\DeviceResources.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DeviceResources.xbf" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/DeviceResources.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="xunit.runner.devices.xr.xml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/xunit.runner.devices.xr.xml">
+					<Candidate type="Path">
+						<Value>xunit.runner.devices\xunit.runner.devices.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Pages">
+					<NamedResource name="AssemblyTestListPage.xaml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/AssemblyTestListPage.xaml">
+						<Candidate type="Path">
+							<Value>xunit.runner.devices\Pages\AssemblyTestListPage.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AssemblyTestListPage.xbf" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/AssemblyTestListPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CreditsPage.xaml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/CreditsPage.xaml">
+						<Candidate type="Path">
+							<Value>xunit.runner.devices\Pages\CreditsPage.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CreditsPage.xbf" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/CreditsPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HomePage.xaml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/HomePage.xaml">
+						<Candidate type="Path">
+							<Value>xunit.runner.devices\Pages\HomePage.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HomePage.xbf" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/HomePage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TestResultPage.xaml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/TestResultPage.xaml">
+						<Candidate type="Path">
+							<Value>xunit.runner.devices\Pages\TestResultPage.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TestResultPage.xbf" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Pages/TestResultPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="xunit.runner.uwp.rd.xml" uri="ms-resource://xunit.runner.devices/Files/xunit.runner.devices/Properties/xunit.runner.uwp.rd.xml">
+						<Candidate type="Path">
+							<Value>xunit.runner.devices\Properties\xunit.runner.uwp.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

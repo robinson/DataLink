@@ -1,0 +1,2 @@
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Driver.S7\DataLink.Driver.S7.csproj;x86
+C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\DataLink.csproj;x86
