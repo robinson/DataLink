@@ -9,19 +9,19 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>8c5054f3-7f5c-4d06-a414-a001b8a60fd0</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\bin\x64\Debug\DataLink.winmd">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.winmd">
       <PackagePath>DataLink.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Core\bin\x64\Debug\DataLink.Core.winmd">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Core\bin\x64\Debug\DataLink.Core.winmd">
       <PackagePath>DataLink.Core.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -333,58 +333,58 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.dll">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.dll">
       <PackagePath>DataLink.Driver.S7.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Data\DataLink.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLink.xml">
       <PackagePath>Data\DataLink.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Data\DataLinkConfiguration.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkConfiguration.xml">
       <PackagePath>Data\DataLinkConfiguration.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Data\DataLinkHistorian.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkHistorian.xml">
       <PackagePath>Data\DataLinkHistorian.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Data\DataLinkTags.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkTags.xml">
       <PackagePath>Data\DataLinkTags.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\bin\x64\Debug\Core\UWPShim.exe">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Core\UWPShim.exe">
       <PackagePath>UWPShim.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

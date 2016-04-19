@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DataLinkHistorian DatabaseType="MySQL" ConnectionString="Server=192.168.48.1;Database=logtemp;User Id=sa;Password=Pass@word1">
-	<Job Name="InsertJob" CycleTime="1000" enable="True">
+	<Job Name="InsertJob" CycleTime="1000" Enable="True">
 	<!-- Type:Insert/Command/StoreProcedure -->
 		<Command Name="InsertCommand" Type="Insert" CommandText="" StoreProcedure="" TableName="Tag01Table">
 			<Tag Name="Tag01"/>

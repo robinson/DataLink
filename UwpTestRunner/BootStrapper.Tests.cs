@@ -22,7 +22,8 @@ namespace UwpTestRunner
         [Fact]
         public void LoadHistorian()
         {
-            
+            var historian = Bootstrapper.LoadHistorian(_historianFile);
+            Assert.Equal(historian.Jobs.Count, 1);
         }
     }
 }
