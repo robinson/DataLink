@@ -369,20 +369,32 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\Data\DataLink.xml">
-      <PackagePath>Data\DataLink.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\TestData\DataLink.xml">
+      <PackagePath>TestData\DataLink.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\Data\DataLinkConfiguration.xml">
-      <PackagePath>Data\DataLinkConfiguration.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\TestData\DataLinkConfiguration.xml">
+      <PackagePath>TestData\DataLinkConfiguration.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\Data\DataLinkHistorian.xml">
-      <PackagePath>Data\DataLinkHistorian.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\TestData\DataLinkHistorian.xml">
+      <PackagePath>TestData\DataLinkHistorian.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\Data\DataLinkTags.xml">
-      <PackagePath>Data\DataLinkTags.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\TestData\DataLinkTags.xml">
+      <PackagePath>TestData\DataLinkTags.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLink.xml">
+      <PackagePath>Data\DataLink.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkConfiguration.xml">
+      <PackagePath>Data\DataLinkConfiguration.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkHistorian.xml">
+      <PackagePath>Data\DataLinkHistorian.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkTags.xml">
+      <PackagePath>Data\DataLinkTags.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

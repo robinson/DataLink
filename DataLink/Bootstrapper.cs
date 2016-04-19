@@ -84,6 +84,21 @@ namespace DataLink
             return historian;
         }
 
-
+        public static Machine LoadMachine(string configurationFile)
+        {
+            if (!File.Exists(configurationFile))
+                throw new FileNotFoundException();
+            Machine machine = new Machine();
+            XDocument xdocument = XDocument.Load(configurationFile);
+            machine.Name = (xdocument.Element("Machine").Attribute("Name") != null) ?
+                 xdocument.Element("Machine").Attribute("Name").Value : string.Empty;
+            machine.IPAddress = (xdocument.Element("Machine").Attribute("IPAddress") != null) ?
+                xdocument.Element("Machine").Attribute("IPAddress").Value : string.Empty;
+            machine.Rack = (xdocument.Element("Machine").Attribute("Rack") != null) ?
+               Convert.ToInt32(xdocument.Element("Machine").Attribute("Rack").Value) : 0;
+            machine.Slot = (xdocument.Element("Machine").Attribute("Slot") != null) ?
+               Convert.ToInt32(xdocument.Element("Machine").Attribute("Slot").Value) : 0;
+            return machine;
+        }
     }
 }

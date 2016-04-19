@@ -110,16 +110,16 @@
     <None Include="UwpTestRunner_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\DataLink.xml">
+    <Content Include="TestData\DataLink.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\DataLinkConfiguration.xml">
+    <Content Include="TestData\DataLinkConfiguration.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\DataLinkHistorian.xml">
+    <Content Include="TestData\DataLinkHistorian.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Data\DataLinkTags.xml">
+    <Content Include="TestData\DataLinkTags.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

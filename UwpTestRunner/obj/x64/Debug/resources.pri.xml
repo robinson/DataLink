@@ -86,6 +86,28 @@
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TestData">
+				<NamedResource name="DataLink.xml" uri="ms-resource://4e109846-d812-415e-a7ca-b96c16195eb1/Files/TestData/DataLink.xml">
+					<Candidate type="Path">
+						<Value>TestData\DataLink.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DataLinkConfiguration.xml" uri="ms-resource://4e109846-d812-415e-a7ca-b96c16195eb1/Files/TestData/DataLinkConfiguration.xml">
+					<Candidate type="Path">
+						<Value>TestData\DataLinkConfiguration.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DataLinkHistorian.xml" uri="ms-resource://4e109846-d812-415e-a7ca-b96c16195eb1/Files/TestData/DataLinkHistorian.xml">
+					<Candidate type="Path">
+						<Value>TestData\DataLinkHistorian.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DataLinkTags.xml" uri="ms-resource://4e109846-d812-415e-a7ca-b96c16195eb1/Files/TestData/DataLinkTags.xml">
+					<Candidate type="Path">
+						<Value>TestData\DataLinkTags.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
 			<ResourceMapSubtree name="WinMetadata">
 				<NamedResource name="Windows.winmd" uri="ms-resource://4e109846-d812-415e-a7ca-b96c16195eb1/Files/WinMetadata/Windows.winmd">
 					<Candidate type="Path">

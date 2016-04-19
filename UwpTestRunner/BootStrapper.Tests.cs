@@ -12,6 +12,7 @@ namespace UwpTestRunner
     {
         private static string _tagFile = "Data/DatalinkTags.xml";
         private static string _historianFile = "Data/DataLinkHistorian.xml";
+        private static string _configFile = "Data/DataConfiguration.xml";
         [Fact]
         public void LoadTagsTest()
         {
@@ -20,10 +21,16 @@ namespace UwpTestRunner
 
         }
         [Fact]
-        public void LoadHistorian()
+        public void LoadHistorianTest()
         {
             var historian = Bootstrapper.LoadHistorian(_historianFile);
             Assert.Equal(historian.Jobs.Count, 1);
+        }
+        [Fact]
+        public void LoadMachineTest()
+        {
+            var machine = Bootstrapper.LoadMachine(_configFile);
+            Assert.Equal(machine.Name, "SoftPLC");
         }
     }
 }
