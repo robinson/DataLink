@@ -191,6 +191,8 @@ C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Deb
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLink.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkConfiguration.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkHistorian.xml
@@ -217,6 +219,7 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Xml.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.VisualBasic.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Newtonsoft.Json.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.AppContext.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Collections.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Collections.Concurrent.dll
@@ -347,8 +350,6 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Net
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
-C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
-C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw

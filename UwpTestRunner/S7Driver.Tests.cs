@@ -31,9 +31,10 @@ namespace UwpTestRunner
                 result = Client.ConnectTo(IpAddress, Rack, Slot);
             if (result == 0)
             {
-                result = Client.ReadArea(S7.S7AreaDB, 100, 0, 26, Buffer);
-                var int12 = S7.GetShortAt(Buffer, 12);
-                Assert.Equal(int12, 21);
+                byte[] buffer = new byte[2];
+                result = Client.ReadArea(S7.S7AreaDB, 100, 12, 2, buffer);
+                var int12 = S7.GetShortAt(buffer, 0);
+                Assert.Equal(int12, 99);
             }
         }
         [Fact]

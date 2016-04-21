@@ -436,3 +436,4 @@ C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\MultipleQualifier
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\xunit.runner.devices.pri.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Newtonsoft.Json.dll

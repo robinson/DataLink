@@ -75,6 +75,9 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.Win32.Primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Newtonsoft.Json\8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
@@ -359,6 +362,30 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.dll">
       <PackagePath>DataLink.Driver.S7.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\dbgshim.dll">
+      <PackagePath>dbgshim.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscorrc.debug.dll">
+      <PackagePath>mscorrc.debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\lib\dotnet\mscorlib.ni.dll">
+      <PackagePath>mscorlib.ni.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Core\bin\x64\Debug\DataLink.Core.winmd">
       <PackagePath>DataLink.Core.winmd</PackagePath>

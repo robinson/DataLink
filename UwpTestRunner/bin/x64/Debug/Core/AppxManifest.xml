@@ -37,14 +37,15 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>UwpTestRunner.exe</Path>
+        <ActivatableClass ActivatableClassId="DataLink.Core.Tag" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Job" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Machine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Historian" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Command" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Utility" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.DataLogging" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Bootstrapper" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.StartupTask" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Machine" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Command" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Job" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Tag" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Historian" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

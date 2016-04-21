@@ -16,11 +16,18 @@ namespace DataLink
         {
 
             taskInstance.GetDeferral();
-            WebServer server = new WebServer();
+            DataLogging dataLogging = new DataLogging();
+            dataLogging.LoadSetting();
+            dataLogging.Initial();
             ThreadPool.RunAsync(workItem =>
             {
-                server.Start();
+                dataLogging.Start();
             });
+            //WebServer server = new WebServer();
+            //ThreadPool.RunAsync(workItem =>
+            //{
+            //    server.Start();
+            //});
             // 
             // TODO: Insert code to perform background work
             //

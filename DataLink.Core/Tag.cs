@@ -13,5 +13,6 @@ namespace DataLink.Core
         public int Number { get; set; }
         public int Position { get; set; }
         public string DataType { get; set; }
+        public object Value { get; set; }
     }
 }

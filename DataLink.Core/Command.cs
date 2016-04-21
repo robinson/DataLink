@@ -10,5 +10,6 @@ namespace DataLink.Core
         public string StoreProcedure { get; set; }
         public string TableName { get; set; }
         public IList<string> Tags {get;set;}
+        public Job Job { get; set; }
 }
 }

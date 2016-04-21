@@ -70,6 +70,7 @@ namespace DataLink
                         commandItem.Tags = y.Descendants("Tag")
                                        .Select(node => (string)node.Attribute("Name"))
                                        .ToList();
+                        commandItem.Job = jobItem;
                         jobItem.Commands.Add(commandItem);
                     }
                     historian.Jobs.Add(jobItem);
@@ -90,14 +91,15 @@ namespace DataLink
                 throw new FileNotFoundException();
             Machine machine = new Machine();
             XDocument xdocument = XDocument.Load(configurationFile);
-            machine.Name = (xdocument.Element("Machine").Attribute("Name") != null) ?
-                 xdocument.Element("Machine").Attribute("Name").Value : string.Empty;
-            machine.IPAddress = (xdocument.Element("Machine").Attribute("IPAddress") != null) ?
-                xdocument.Element("Machine").Attribute("IPAddress").Value : string.Empty;
-            machine.Rack = (xdocument.Element("Machine").Attribute("Rack") != null) ?
-               Convert.ToInt32(xdocument.Element("Machine").Attribute("Rack").Value) : 0;
-            machine.Slot = (xdocument.Element("Machine").Attribute("Slot") != null) ?
-               Convert.ToInt32(xdocument.Element("Machine").Attribute("Slot").Value) : 0;
+            var root = xdocument.Element("DataLinkConfiguration");
+            machine.Name = (root.Element("Machine").Attribute("Name") != null) ?
+                 root.Element("Machine").Attribute("Name").Value : string.Empty;
+            machine.IPAddress = (root.Element("Machine").Attribute("IPAddress") != null) ?
+                root.Element("Machine").Attribute("IPAddress").Value : string.Empty;
+            machine.Rack = (root.Element("Machine").Attribute("Rack") != null) ?
+               Convert.ToInt32(root.Element("Machine").Attribute("Rack").Value) : 0;
+            machine.Slot = (root.Element("Machine").Attribute("Slot") != null) ?
+               Convert.ToInt32(root.Element("Machine").Attribute("Slot").Value) : 0;
             return machine;
         }
     }
