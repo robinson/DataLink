@@ -1,10 +1,13 @@
 TODO
 ------------------------------
 20160421/lth
-TD1 - Multiple database using NHibernate
-TD2 - Integrate with MongoDB
-TD3 - Logging in RBi install
-TD4 - Logging in wcf service
-TD5 - Integrate with Azure IOT
-TD6 - Integrate with OPC UA.
-TD7 - Performance test with historian
+1 - Multiple database using NHibernate.
+2 - Integrate with MongoDB.
+3 - Logging in RBi install.
+4 - Logging in wcf service.
+5 - Integrate with Azure IOT.
+6 - Integrate with OPC UA.
+7 - Performance test with historian.
+8 - Connect with web service via xml config.
+9 - Sleep then resume when connection is not ready. 
+10. Exception handling.

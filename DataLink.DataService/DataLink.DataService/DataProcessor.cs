@@ -25,6 +25,7 @@ namespace DataLink.DataService
         }
         private void ProcessData(object state)
         {
+            //Console.WriteLine("Start Bulk Insert");
             BulkInsert();
         }
         public void AddToQueue(string data)
