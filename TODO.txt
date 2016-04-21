@@ -1,0 +1,10 @@
+TODO
+------------------------------
+20160421/lth
+TD1 - Multiple database using NHibernate
+TD2 - Integrate with MongoDB
+TD3 - Logging in RBi install
+TD4 - Logging in wcf service
+TD5 - Integrate with Azure IOT
+TD6 - Integrate with OPC UA.
+TD7 - Performance test with historian
