@@ -30,6 +30,9 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.ApplicationInsights.WindowsApps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.Azure.Amqp\1.1.1\lib\uap10.0\Microsoft.Azure.Amqp.Uwp.dll">
+      <PackagePath>Microsoft.Azure.Amqp.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
@@ -77,6 +80,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Newtonsoft.Json\8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\PCLCrypto\1.0.86\lib\win81\PCLCrypto.dll">
+      <PackagePath>PCLCrypto.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -342,6 +348,9 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Validation\2.0.6.15003\lib\portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10\Validation.dll">
+      <PackagePath>Validation.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\xunit.abstractions\2.0.0\lib\portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS\xunit.abstractions.dll">
       <PackagePath>xunit.abstractions.dll</PackagePath>
     </AppxPackagedFile>
@@ -363,29 +372,8 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.dll">
       <PackagePath>DataLink.Driver.S7.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\clretwrc.dll">
-      <PackagePath>clretwrc.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\coreclr.dll">
-      <PackagePath>coreclr.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\dbgshim.dll">
-      <PackagePath>dbgshim.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscordaccore.dll">
-      <PackagePath>mscordaccore.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscordbi.dll">
-      <PackagePath>mscordbi.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscorrc.debug.dll">
-      <PackagePath>mscorrc.debug.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\native\mscorrc.dll">
-      <PackagePath>mscorrc.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.NETCore.Runtime.CoreCLR-x64\1.0.0\runtimes\win7-x64\lib\dotnet\mscorlib.ni.dll">
-      <PackagePath>mscorlib.ni.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Microsoft.Azure.Devices.Client\1.0.5\lib\uap10.0\Microsoft.Azure.Devices.Client.winmd">
+      <PackagePath>Microsoft.Azure.Devices.Client.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Core\bin\x64\Debug\DataLink.Core.winmd">
       <PackagePath>DataLink.Core.winmd</PackagePath>
@@ -413,6 +401,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLink.xml">
       <PackagePath>Data\DataLink.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkAzureIoT.xml">
+      <PackagePath>Data\DataLinkAzureIoT.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkConfiguration.xml">
       <PackagePath>Data\DataLinkConfiguration.xml</PackagePath>

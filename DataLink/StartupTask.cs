@@ -18,10 +18,10 @@ namespace DataLink
             taskInstance.GetDeferral();
             DataLogging dataLogging = new DataLogging();
             dataLogging.LoadSetting();
-            dataLogging.Initial();
+            //dataLogging.Initial();
             ThreadPool.RunAsync(workItem =>
             {
-                dataLogging.Start();
+                //dataLogging.Start();
             });
             //WebServer server = new WebServer();
             //ThreadPool.RunAsync(workItem =>

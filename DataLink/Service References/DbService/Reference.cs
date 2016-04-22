@@ -151,7 +151,7 @@ namespace DataLink.DbService {
         
         private static System.ServiceModel.EndpointAddress GetEndpointAddress(EndpointConfiguration endpointConfiguration) {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IDatabaseService)) {
-                return new System.ServiceModel.EndpointAddress("http://192.168.48.1/DataLink.DataService/DatabaseService.svc");
+                return new System.ServiceModel.EndpointAddress("http://192.168.48.1:9090/DataService");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }

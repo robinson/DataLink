@@ -94,5 +94,15 @@ namespace DataLink
 
             return messageString;
         }
+        internal static string BuildData(List<Tag> tags)
+        {
+            var messageString = "";
+            foreach (var tagItem in tags)
+            {
+                messageString += (tagItem != null) ? JsonConvert.SerializeObject(tagItem) : string.Empty;
+            }
+            return messageString;
+        }
+
     }
 }

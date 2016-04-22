@@ -107,6 +107,8 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application.cs" />
+    <Compile Include="AzureIot.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Enums\DatabaseType.cs" />
     <Compile Include="Historian.cs" />

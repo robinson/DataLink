@@ -21,14 +21,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://192.168.48.1/DataLink.DataService/DatabaseService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://192.168.48.1:9090/DataService" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="DatabaseService.xsd" MetadataType="Schema" ID="4b4a4a79-8c77-4cd9-99db-a4a63c13c845" SourceId="1" SourceUrl="http://192.168.48.1/DataLink.DataService/DatabaseService.svc?xsd=xsd2" />
-    <MetadataFile FileName="DatabaseService.disco" MetadataType="Disco" ID="8726bfe1-d22b-40c2-ac21-ebac720c55da" SourceId="1" SourceUrl="http://192.168.48.1/DataLink.DataService/DatabaseService.svc?disco" />
-    <MetadataFile FileName="DatabaseService1.xsd" MetadataType="Schema" ID="46bd70d9-7469-469a-b940-872a805f9753" SourceId="1" SourceUrl="http://192.168.48.1/DataLink.DataService/DatabaseService.svc?xsd=xsd1" />
-    <MetadataFile FileName="DatabaseService2.xsd" MetadataType="Schema" ID="f03ab59e-9364-4095-8ef4-c70a175f2e76" SourceId="1" SourceUrl="http://192.168.48.1/DataLink.DataService/DatabaseService.svc?xsd=xsd0" />
-    <MetadataFile FileName="DatabaseService.wsdl" MetadataType="Wsdl" ID="69492f7b-7a2a-46e7-89ba-04b1a26c65da" SourceId="1" SourceUrl="http://192.168.48.1/DataLink.DataService/DatabaseService.svc?wsdl" />
+    <MetadataFile FileName="DataService.xsd" MetadataType="Schema" ID="caa405bd-44a2-4afe-a695-d0b69020c0d7" SourceId="1" SourceUrl="http://192.168.48.1:9090/DataService?xsd=xsd2" />
+    <MetadataFile FileName="DataService.disco" MetadataType="Disco" ID="280fca75-9925-4341-a3c9-999cc137aa73" SourceId="1" SourceUrl="http://192.168.48.1:9090/DataService?disco" />
+    <MetadataFile FileName="DatabaseService1.wsdl" MetadataType="Wsdl" ID="5d2a5c93-1415-4012-a85e-90fb241f1a48" SourceId="1" SourceUrl="http://192.168.48.1:9090/DataService?wsdl" />
+    <MetadataFile FileName="DataService1.xsd" MetadataType="Schema" ID="71a34fe8-3a1b-4afb-812d-1058301947f3" SourceId="1" SourceUrl="http://192.168.48.1:9090/DataService?xsd=xsd1" />
+    <MetadataFile FileName="DataService2.xsd" MetadataType="Schema" ID="ff2292a4-446d-4f2b-8cf9-defdedfe4e8e" SourceId="1" SourceUrl="http://192.168.48.1:9090/DataService?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
