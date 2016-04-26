@@ -16,4 +16,7 @@
     <AuthenticationMode>None</AuthenticationMode>
     <CreateCleanLayout>true</CreateCleanLayout>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
 </Project>

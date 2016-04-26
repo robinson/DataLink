@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<DataLinkAzureIoT IotHubUri="" DeviceKey="" DeviceId="">
+<DataLinkAzureIoT DataServiceUrl="http://192.168.48.1:9090/DataService">
   <Job Name="InsertJob" CycleTime="10000" Enable="True">
     <Command Name="InsertCommand" Type="Insert" CommandText="" StoreProcedure="">
       <Tag Name="Tag01"/>
-      <Tag Name="Tag02"/>
     </Command>
   </Job>
 </DataLinkAzureIoT>

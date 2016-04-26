@@ -35,13 +35,23 @@ namespace DataLink.DataService
             }
             return composite;
         }
-        public string SendData(string data)
+        public string SendDataToDatabase(string data)
         {
             if (string.IsNullOrEmpty(data))
             {
                 return "Empty Data";
             }
-            processor.AddToQueue(data);
+            processor.AddToDbQueue(data);
+            return "Success receive";
+        }
+
+        public string SendDataToAzure(string data)
+        {
+            if (string.IsNullOrEmpty(data))
+            {
+                return "Empty Data";
+            }
+            processor.AddToAzureQueue(data);
             return "Success receive";
         }
     }

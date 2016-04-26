@@ -16,13 +16,21 @@ namespace DataLink
         {
 
             taskInstance.GetDeferral();
-            DataLogging dataLogging = new DataLogging();
-            dataLogging.LoadSetting();
-            //dataLogging.Initial();
+            DataLinkApplication dlApp = new DataLinkApplication();
+            dlApp.LoadSetting();
+            dlApp.Initial();
             ThreadPool.RunAsync(workItem =>
             {
-                //dataLogging.Start();
+                dlApp.Start();
             });
+
+            //DataLogging dataLogging = new DataLogging();
+            //dataLogging.LoadSetting();
+            //dataLogging.Initial();
+            //ThreadPool.RunAsync(workItem =>
+            //{
+                //dataLogging.Start();
+            //});
             //WebServer server = new WebServer();
             //ThreadPool.RunAsync(workItem =>
             //{

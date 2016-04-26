@@ -11,14 +11,25 @@ namespace DataLink
 {
     public sealed class DataLogging
     {
-        
-       
-        public static Historian _Historian = new Historian();
+        private static S7ClientAsync S7Client = new S7ClientAsync();
+        private static Historian _Historian = new Historian();
         
         private static DbService.DatabaseServiceClient _ServiceClient = new DbService.DatabaseServiceClient();
+        private Dictionary<Command, List<Tag>> DictJob = new Dictionary<Command, List<Tag>>();
 
-        public void Initial(ref Dictionary<Command, List<Tag>> jobs, List<Tag> tags)
+        public void Initial( IList<Tag> tags, Machine machine)
         {
+            S7Client = new S7ClientAsync();
+            //connect
+            S7Client.SetConnectionType(S7.OP);
+            var result = S7Client.ConnectTo(machine.IPAddress, machine.Rack, machine.Slot);
+            if (result > 0)
+            {
+                //S7ClientAsync.ErrorText(result);
+                //log here
+                //try to connect
+                return;
+            }
             var enabledJobs = _Historian.Jobs.Where(x => x.Enable == true && x.Commands != null).ToList();
             foreach (Job jobItem in enabledJobs)
             {
@@ -34,7 +45,7 @@ namespace DataLink
                             tList.Add(tagItem);
                         }
                     }
-                    jobs.Add(pair, tList);
+                    DictJob.Add(pair, tList);
                 }
             }
         }
@@ -42,9 +53,9 @@ namespace DataLink
         {   
             _Historian = Bootstrapper.LoadHistorian("Data/DataLinkHistorian.xml");
         }
-        public void Start(Dictionary<Command, List<Tag>> jobs)
+        public void Start()
         {
-            foreach (KeyValuePair<Command, List<Tag>> kvp in jobs)
+            foreach (KeyValuePair<Command, List<Tag>> kvp in DictJob)
             {
                 var cycle = ((Command)kvp.Key).Job.CycleTime;
                 ThreadPoolTimer timer = ThreadPoolTimer.CreatePeriodicTimer(_ => Execute(kvp.Value, kvp.Key), TimeSpan.FromMilliseconds(cycle));
@@ -59,17 +70,14 @@ namespace DataLink
                 var length = Utility.GetByteLengthFromType(tagItem.DataType);
                 int area = Utility.GetS7Area(tagItem.Area);
                 byte[] buffer = new byte[length];
-                var result = DataLinkApplication.S7Client.ReadArea(area, tagItem.Number, tagItem.Position, length, buffer);
+                var result = S7Client.ReadArea(area, tagItem.Number, tagItem.Position, length, buffer);
                 if (result == 0)
                 {
                     tagItem.Value = Utility.GetS7Value(tagItem, buffer);
                 }
             }
             var message = Utility.BuildData(tags);
-            await _ServiceClient.SendDataAsync(message);
+            await _ServiceClient.SendDataToDatabaseAsync(message);
         }
-
-
-
     }
 }

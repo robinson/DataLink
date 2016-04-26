@@ -191,6 +191,7 @@ C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Deb
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.csprojResolveAssemblyReference.cache
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLink.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkConfiguration.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkHistorian.xml
@@ -202,8 +203,6 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\AppxManifest.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Core\AppxManifest.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Core\UWPShim.exe
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.build.appxrecipe
-C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.Azure.Amqp.Uwp.dll
-C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.Azure.Devices.Client.winmd
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.CSharp.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Core.dll
@@ -220,7 +219,6 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.VisualBasic.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Microsoft.Win32.Primitives.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Newtonsoft.Json.dll
-C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\PCLCrypto.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.AppContext.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Collections.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Collections.Concurrent.dll
@@ -309,14 +307,12 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Xml.ReaderWrite
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Xml.XDocument.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Xml.XmlDocument.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\System.Xml.XmlSerializer.dll
-C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Validation.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Core.winmd
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Driver.S7.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Core.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Core.pri
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Driver.S7.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Driver.S7.pri
-C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.csprojResolveAssemblyReference.cache
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.winmd
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.winmdobj
@@ -375,7 +371,6 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
-C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\Validation\en-US\Validation.Strings.resw
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.csproj.GenerateResource.Cache
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\priconfig.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\priconfig.xml.intermediate
@@ -389,5 +384,4 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\qualifiers.txt
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\resources.pri.xml
-C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\PCLCrypto.pri.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\ProjectArchitectures.txt

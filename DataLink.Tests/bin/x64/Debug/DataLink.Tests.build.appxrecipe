@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>4a690e5b-d3a7-4e46-a64e-7ebe6dbb020a</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\obj\x64\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\bin\x64\Debug\DataLink.Tests.exe">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\bin\x64\Debug\DataLink.Tests.exe">
       <PackagePath>entrypoint\DataLink.Tests.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
@@ -363,43 +363,43 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\TestPlatform.Universal\14.0\Redist\CommonConfiguration\neutral\vstest_executionengine_platformbridge.winmd">
       <PackagePath>vstest_executionengine_platformbridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Properties\UnitTestApp.rd.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Properties\UnitTestApp.rd.xml">
       <PackagePath>Properties\UnitTestApp.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\bin\x64\Debug\DataLink.Tests.xr.xml">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\bin\x64\Debug\DataLink.Tests.xr.xml">
       <PackagePath>DataLink.Tests.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\xunit.runner.visualstudio\2.1.0\build\uap10.0\xunit.runner.visualstudio.uwp.dll">
@@ -411,7 +411,7 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\xunit.runner.visualstudio\2.1.0\build\uap10.0\..\_common\xunit.runner.utility.dotnet.dll">
       <PackagePath>xunit.runner.utility.dotnet.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\bin\x64\Debug\Core\DataLink.Tests.exe">
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\bin\x64\Debug\Core\DataLink.Tests.exe">
       <PackagePath>DataLink.Tests.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

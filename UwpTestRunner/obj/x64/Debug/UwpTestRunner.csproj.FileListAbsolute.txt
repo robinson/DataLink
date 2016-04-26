@@ -215,6 +215,13 @@ C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\UwpTestRunner\obj\x6
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\UwpTestRunner\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\UwpTestRunner\obj\x64\Debug\xunit.runner.devices.pri.xml
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\UwpTestRunner\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\UwpTestRunner.csprojResolveAssemblyReference.cache
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.g.i.cs
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.g.cs
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.xaml
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.xbf
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\XamlSaveStateFile.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Data\DataLink.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Data\DataLinkConfiguration.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Data\DataLinkHistorian.xml
@@ -251,6 +258,7 @@ C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\System.Xml.dll
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\System.dll
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Microsoft.VisualBasic.dll
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Newtonsoft.Json.dll
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\System.AppContext.dll
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\System.Collections.dll
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\System.Collections.Concurrent.dll
@@ -358,13 +366,6 @@ C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\DataLink.Core.pri
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\DataLink.Driver.S7.pdb
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\DataLink.Driver.S7.pri
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\DataLink.pdb
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\UwpTestRunner.csprojResolveAssemblyReference.cache
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.g.i.cs
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.g.cs
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\XamlTypeInfo.g.cs
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.xaml
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\App.xbf
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\XamlSaveStateFile.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\UwpTestRunner.exe
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\UwpTestRunner.pdb
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\ResourceHandlingTask.state
@@ -436,10 +437,3 @@ C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\MultipleQualifier
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\xunit.runner.devices.pri.xml
 C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\ProjectArchitectures.txt
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Newtonsoft.Json.dll
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Microsoft.Azure.Amqp.Uwp.dll
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Microsoft.Azure.Devices.Client.winmd
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\PCLCrypto.dll
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\bin\x64\Debug\Validation.dll
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\Validation\en-US\Validation.Strings.resw
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x64\Debug\PCLCrypto.pri.xml

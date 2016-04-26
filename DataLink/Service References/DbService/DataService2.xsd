@@ -29,17 +29,31 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="SendData">
+  <xs:element name="SendDataToDatabase">
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="data" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="SendDataResponse">
+  <xs:element name="SendDataToDatabaseResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="SendDataResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SendDataToDatabaseResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendDataToAzure">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="data" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendDataToAzureResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendDataToAzureResult" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

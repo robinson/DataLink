@@ -3,7 +3,6 @@
 	<ResourceMap name="DataLink-uwp" version="1.0" primary="true">
 		<Qualifiers>
 			<AlternateForm>UNPLATED</AlternateForm>
-			<Language>EN-US</Language>
 			<Scale>200</Scale>
 			<TargetSize>24</TargetSize>
 		</Qualifiers>
@@ -28791,38 +28790,6 @@
 			<NamedResource name="Xml_MissingSerializationCodeException" uri="ms-resource://DataLink-uwp/FxResources.System.Xml.XmlSerializer.SR/Xml_MissingSerializationCodeException">
 				<Candidate type="String">
 					<Value>Type '{0}' cannot be serialized by XmlSerializer, serialization code for the type is missing. Consult the SDK documentation for adding it as a root serialization type. http://go.microsoft.com/fwlink/?LinkId=613136</Value>
-				</Candidate>
-			</NamedResource>
-		</ResourceMapSubtree>
-		<ResourceMapSubtree name="Validation.Strings">
-			<NamedResource name="Argument_EmptyArray" uri="ms-resource://DataLink-uwp/Validation.Strings/Argument_EmptyArray">
-				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
-					<Value>'{0}' must contain at least one element.</Value>
-				</Candidate>
-			</NamedResource>
-			<NamedResource name="Argument_EmptyString" uri="ms-resource://DataLink-uwp/Validation.Strings/Argument_EmptyString">
-				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
-					<Value>'{0}' cannot be an empty string ("") or start with the null character.</Value>
-				</Candidate>
-			</NamedResource>
-			<NamedResource name="Argument_NullElement" uri="ms-resource://DataLink-uwp/Validation.Strings/Argument_NullElement">
-				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
-					<Value>'{0}' cannot contain a null (Nothing in Visual Basic) element.</Value>
-				</Candidate>
-			</NamedResource>
-			<NamedResource name="Argument_Whitespace" uri="ms-resource://DataLink-uwp/Validation.Strings/Argument_Whitespace">
-				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
-					<Value>The parameter "{0}" cannot consist entirely of white space characters.</Value>
-				</Candidate>
-			</NamedResource>
-			<NamedResource name="InternalExceptionMessage" uri="ms-resource://DataLink-uwp/Validation.Strings/InternalExceptionMessage">
-				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
-					<Value>An internal error occurred. Please contact customer support.</Value>
-				</Candidate>
-			</NamedResource>
-			<NamedResource name="ServiceMissing" uri="ms-resource://DataLink-uwp/Validation.Strings/ServiceMissing">
-				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
-					<Value>Cannot find an instance of the {0} service.</Value>
 				</Candidate>
 			</NamedResource>
 		</ResourceMapSubtree>

@@ -19,8 +19,11 @@ namespace DataLink.DataService
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
         [OperationContract]
-        string SendData(string data);
+        string SendDataToDatabase(string data);
         // TODO: Add your service operations here
+
+        [OperationContract]
+        string SendDataToAzure(string data);
     }
 
 

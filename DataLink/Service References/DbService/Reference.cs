@@ -70,8 +70,11 @@ namespace DataLink.DbService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDatabaseService/GetDataUsingDataContract", ReplyAction="http://tempuri.org/IDatabaseService/GetDataUsingDataContractResponse")]
         System.Threading.Tasks.Task<DataLink.DbService.CompositeType> GetDataUsingDataContractAsync(DataLink.DbService.CompositeType composite);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDatabaseService/SendData", ReplyAction="http://tempuri.org/IDatabaseService/SendDataResponse")]
-        System.Threading.Tasks.Task<string> SendDataAsync(string data);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDatabaseService/SendDataToDatabase", ReplyAction="http://tempuri.org/IDatabaseService/SendDataToDatabaseResponse")]
+        System.Threading.Tasks.Task<string> SendDataToDatabaseAsync(string data);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDatabaseService/SendDataToAzure", ReplyAction="http://tempuri.org/IDatabaseService/SendDataToAzureResponse")]
+        System.Threading.Tasks.Task<string> SendDataToAzureAsync(string data);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -125,8 +128,12 @@ namespace DataLink.DbService {
             return base.Channel.GetDataUsingDataContractAsync(composite);
         }
         
-        public System.Threading.Tasks.Task<string> SendDataAsync(string data) {
-            return base.Channel.SendDataAsync(data);
+        public System.Threading.Tasks.Task<string> SendDataToDatabaseAsync(string data) {
+            return base.Channel.SendDataToDatabaseAsync(data);
+        }
+        
+        public System.Threading.Tasks.Task<string> SendDataToAzureAsync(string data) {
+            return base.Channel.SendDataToAzureAsync(data);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync() {

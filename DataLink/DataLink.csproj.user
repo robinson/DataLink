@@ -7,7 +7,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
     <RemoteDebugEnabled>true</RemoteDebugEnabled>
-    <RemoteDebugMachine>192.168.48.200:4020 (MSEDGEWIN10)</RemoteDebugMachine>
+    <RemoteDebugMachine>MSEDGEWIN10</RemoteDebugMachine>
     <UseAuthentication>true</UseAuthentication>
     <CreateCleanLayout>true</CreateCleanLayout>
     <AuthenticationMode>None</AuthenticationMode>

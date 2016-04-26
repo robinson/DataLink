@@ -46,25 +46,18 @@
       <InProcessServer>
         <Path>UWPShim.exe</Path>
         <ActivatableClass ActivatableClassId="DataLink.Bootstrapper" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.DataLogging" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Utility" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.DataLogging" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.AzureDevice" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.StartupTask" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithSharedAccessPolicyKey" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithRegistrySymmetricKey" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.Http1TransportSettings" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.Message" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.AuthenticationMethodFactory" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceClient" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.DeviceAuthenticationWithToken" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.IotHubConnectionStringBuilder" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Microsoft.Azure.Devices.Client.AmqpTransportSettings" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Machine" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Historian" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.DataLinkApplication" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Core.Tag" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.AzureIot" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Command" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Core.Job" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Core.Application" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Machine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Command" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.AzureIot" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Historian" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

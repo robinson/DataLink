@@ -19,11 +19,17 @@
   <wsdl:message name="IDatabaseService_GetDataUsingDataContract_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
   </wsdl:message>
-  <wsdl:message name="IDatabaseService_SendData_InputMessage">
-    <wsdl:part name="parameters" element="tns:SendData" />
+  <wsdl:message name="IDatabaseService_SendDataToDatabase_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendDataToDatabase" />
   </wsdl:message>
-  <wsdl:message name="IDatabaseService_SendData_OutputMessage">
-    <wsdl:part name="parameters" element="tns:SendDataResponse" />
+  <wsdl:message name="IDatabaseService_SendDataToDatabase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendDataToDatabaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseService_SendDataToAzure_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendDataToAzure" />
+  </wsdl:message>
+  <wsdl:message name="IDatabaseService_SendDataToAzure_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendDataToAzureResponse" />
   </wsdl:message>
   <wsdl:portType name="IDatabaseService">
     <wsdl:operation name="GetData">
@@ -34,9 +40,13 @@
       <wsdl:input wsam:Action="http://tempuri.org/IDatabaseService/GetDataUsingDataContract" message="tns:IDatabaseService_GetDataUsingDataContract_InputMessage" />
       <wsdl:output wsam:Action="http://tempuri.org/IDatabaseService/GetDataUsingDataContractResponse" message="tns:IDatabaseService_GetDataUsingDataContract_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="SendData">
-      <wsdl:input wsam:Action="http://tempuri.org/IDatabaseService/SendData" message="tns:IDatabaseService_SendData_InputMessage" />
-      <wsdl:output wsam:Action="http://tempuri.org/IDatabaseService/SendDataResponse" message="tns:IDatabaseService_SendData_OutputMessage" />
+    <wsdl:operation name="SendDataToDatabase">
+      <wsdl:input wsam:Action="http://tempuri.org/IDatabaseService/SendDataToDatabase" message="tns:IDatabaseService_SendDataToDatabase_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IDatabaseService/SendDataToDatabaseResponse" message="tns:IDatabaseService_SendDataToDatabase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendDataToAzure">
+      <wsdl:input wsam:Action="http://tempuri.org/IDatabaseService/SendDataToAzure" message="tns:IDatabaseService_SendDataToAzure_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IDatabaseService/SendDataToAzureResponse" message="tns:IDatabaseService_SendDataToAzure_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IDatabaseService" type="tns:IDatabaseService">
@@ -59,8 +69,17 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="SendData">
-      <soap:operation soapAction="http://tempuri.org/IDatabaseService/SendData" style="document" />
+    <wsdl:operation name="SendDataToDatabase">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseService/SendDataToDatabase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendDataToAzure">
+      <soap:operation soapAction="http://tempuri.org/IDatabaseService/SendDataToAzure" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

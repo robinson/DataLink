@@ -132,6 +132,7 @@ namespace DataLink
                  xdocument.Element("DataLinkAzureIoT").Attribute("DeviceId").Value : string.Empty;
                 azureIot.DeviceKey = (xdocument.Element("DataLinkAzureIoT").Attribute("DeviceKey") != null) ?
                 xdocument.Element("DataLinkAzureIoT").Attribute("DeviceKey").Value : string.Empty;
+                azureIot.Jobs = new  List<Job>();
                 foreach (var x in xdocument.Descendants("Job"))
                 {
                     var jobItem = new Job();
@@ -151,6 +152,7 @@ namespace DataLink
                     }
                     azureIot.Jobs.Add(jobItem);
                 }
+                
             }
             catch (Exception ex)
             {
