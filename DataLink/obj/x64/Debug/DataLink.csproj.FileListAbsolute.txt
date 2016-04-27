@@ -191,7 +191,6 @@ C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Deb
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink\obj\x64\Debug\ProjectArchitectures.txt
-C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.csprojResolveAssemblyReference.cache
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLink.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkConfiguration.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkHistorian.xml
@@ -313,6 +312,7 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Core.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Core.pri
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Driver.S7.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Driver.S7.pri
+C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.csprojResolveAssemblyReference.cache
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.winmd
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\DataLink.winmdobj

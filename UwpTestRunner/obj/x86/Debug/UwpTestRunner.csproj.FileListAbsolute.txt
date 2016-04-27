@@ -1,7 +1,0 @@
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\UwpTestRunner.csprojResolveAssemblyReference.cache
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\App.g.i.cs
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\App.g.cs
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\XamlTypeInfo.g.cs
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\App.xaml
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\App.xbf
-C:\Users\lth\Source\Repos\DataLink\UwpTestRunner\obj\x86\Debug\XamlSaveStateFile.xml

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DataLink>
-  <!--TYPE: Historian/AzureIoT/OPCUA-->
-	<Application Name="ProjectNameHistorian" Enabled="False" Type="Historian" />
-  <Application Name="ProjectNameAzureIoT" Enabled ="True" Type="AzureIoT" />
-  <Application Name="ProjectNameOPCUA" Enabled ="False" Type="OPCUA" />
-</DataLink>

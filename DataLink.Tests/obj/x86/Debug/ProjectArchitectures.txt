@@ -1,1 +1,0 @@
-C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Tests\DataLink.Tests.csproj;x86

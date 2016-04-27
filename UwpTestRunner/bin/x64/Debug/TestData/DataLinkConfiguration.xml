@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DataLinkConfiguration>
-  <Machine Name="SoftPLC" IPAddress="192.168.48.100" Rack="0" Slot="2"></Machine>
-</DataLinkConfiguration>

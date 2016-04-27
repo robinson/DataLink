@@ -1,1 +1,0 @@
-C:\Users\lth\Source\Repos\DataLink\DataLink.Tests\DataLink.Tests.csproj;x64

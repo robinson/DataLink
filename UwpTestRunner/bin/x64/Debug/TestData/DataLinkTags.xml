@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DataLinkTags>
-	<Tag Name="Tag01" Area="DB" Number="100" Position="10" DataType="Short" />
-	<Tag Name="Tag02" Area="DB" Number="100" Position="8" DataType="Integer" />
-	<Tag Name="Tag03" Area="DB" Number="100" Position="12" DataType="Integer" />
-</DataLinkTags>
