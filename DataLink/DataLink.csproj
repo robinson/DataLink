@@ -101,6 +101,7 @@
     <Compile Include="AzureDevice.cs" />
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="DataLogging.cs" />
+    <Compile Include="OpcServer.cs" />
     <Compile Include="Service References\DbService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -118,6 +119,9 @@
     <None Include="DataLink_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataLink.Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\DataLink.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -131,6 +135,9 @@
     <Content Include="Data\DataLinkTags.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataLink.Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png">
@@ -183,6 +190,22 @@
     <ProjectReference Include="..\DataLink.Driver.S7\DataLink.Driver.S7.csproj">
       <Project>{5e270a2b-10fd-4b74-a41a-daad79a4a8e6}</Project>
       <Name>DataLink.Driver.S7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpcUa\Common\Opc.Ua.Sample.csproj">
+      <Project>{f9e0dbb6-fd8d-4871-b179-bbf3a2a3cda1}</Project>
+      <Name>Opc.Ua.Sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpcUa\Core\Opc.Ua.Core.csproj">
+      <Project>{aa9d8d17-5dbd-4e77-8496-e32177573bf3}</Project>
+      <Name>Opc.Ua.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpcUa\SDK\Configuration\Opc.Ua.Configuration.csproj">
+      <Project>{26a56753-9326-48c3-95bb-11594293b7a8}</Project>
+      <Name>Opc.Ua.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpcUa\SDK\Server\Opc.Ua.Server.csproj">
+      <Project>{abcad618-b747-4794-9563-33e018fdbb93}</Project>
+      <Name>Opc.Ua.Server</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

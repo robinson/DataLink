@@ -9,7 +9,7 @@
     <RemoteDebugEnabled>true</RemoteDebugEnabled>
     <RemoteDebugMachine>MSEDGEWIN10</RemoteDebugMachine>
     <UseAuthentication>true</UseAuthentication>
-    <CreateCleanLayout>true</CreateCleanLayout>
+    <CreateCleanLayout>false</CreateCleanLayout>
     <AuthenticationMode>None</AuthenticationMode>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
@@ -17,5 +17,8 @@
     <RemoteDebugEnabled>true</RemoteDebugEnabled>
     <RemoteDebugMachine>192.168.48.200</RemoteDebugMachine>
     <UseAuthentication>true</UseAuthentication>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>

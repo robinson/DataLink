@@ -6,9 +6,11 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
+Data\DataLink.Config.xml
 Data\DataLink.xml
 Data\DataLinkAzureIoT.xml
 Data\DataLinkConfiguration.xml
 Data\DataLinkHistorian.xml
 Data\DataLinkTags.xml
+DataLink.Config.xml
 Properties\Default.rd.xml

@@ -5,16 +5,15 @@ TODO
 2 - Integrate with MongoDB.
 3 - running in RBi.
 4 - Logging in wcf service.
-5 - Integrate with Azure IOT.
-6 - Integrate with OPC UA.
+6 - Integrate with OPC UA.(50%)
 7 - Performance test with historian.
 8 - Connect with web service via xml config.
 9 - Sleep then resume when connection is not ready. 
 10 - Exception handling.
 12 - Local buffer when lost connection.
-
+13 - Implement functions silent load + UI
 
 DONE
 11. WCF self host.
-
+5 - Integrate with Azure IOT.
 

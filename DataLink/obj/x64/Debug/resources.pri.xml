@@ -7,6 +7,11 @@
 			<TargetSize>24</TargetSize>
 		</Qualifiers>
 		<ResourceMapSubtree name="Files">
+			<NamedResource name="DataLink.Config.xml" uri="ms-resource://DataLink-uwp/Files/DataLink.Config.xml">
+				<Candidate type="Path">
+					<Value>DataLink.Config.xml</Value>
+				</Candidate>
+			</NamedResource>
 			<ResourceMapSubtree name="Assets">
 				<NamedResource name="LockScreenLogo.png" uri="ms-resource://DataLink-uwp/Files/Assets/LockScreenLogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
@@ -43,6 +48,11 @@
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Data">
+				<NamedResource name="DataLink.Config.xml" uri="ms-resource://DataLink-uwp/Files/Data/DataLink.Config.xml">
+					<Candidate type="Path">
+						<Value>Data\DataLink.Config.xml</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="DataLink.xml" uri="ms-resource://DataLink-uwp/Files/Data/DataLink.xml">
 					<Candidate type="Path">
 						<Value>Data\DataLink.xml</Value>
@@ -68,6 +78,219 @@
 						<Value>Data\DataLinkTags.xml</Value>
 					</Candidate>
 				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Opc.Ua.Client">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Opc.Ua.Client.rd.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Client/Properties/Opc.Ua.Client.rd.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Client\Properties\Opc.Ua.Client.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Opc.Ua.Core">
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Opc.Ua.Core.rd.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Properties/Opc.Ua.Core.rd.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Core\Properties\Opc.Ua.Core.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Schema">
+					<NamedResource name="ApplicationConfiguration.xsd" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Schema/ApplicationConfiguration.xsd">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Core\Schema\ApplicationConfiguration.xsd</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Opc.Ua.NodeSet.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Schema/Opc.Ua.NodeSet.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Core\Schema\Opc.Ua.NodeSet.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Opc.Ua.NodeSet2.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Schema/Opc.Ua.NodeSet2.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Core\Schema\Opc.Ua.NodeSet2.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Opc.Ua.Types.xsd" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Schema/Opc.Ua.Types.xsd">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Core\Schema\Opc.Ua.Types.xsd</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SecuredApplication.xsd" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Schema/SecuredApplication.xsd">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Core\Schema\SecuredApplication.xsd</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Stack">
+					<ResourceMapSubtree name="Generated">
+						<NamedResource name="Opc.Ua.NodeSet2.Part10.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part10.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part10.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part11.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part11.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part11.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part13.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part13.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part13.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part3.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part3.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part3.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part4.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part4.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part4.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part5.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part5.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part5.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part8.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part8.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part8.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part9.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part9.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part9.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.Part999.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.Part999.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part999.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.NodeSet2.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.NodeSet2.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.xml</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Opc.Ua.PredefinedNodes.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Generated/Opc.Ua.PredefinedNodes.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Generated\Opc.Ua.PredefinedNodes.xml</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Server">
+						<NamedResource name="ClientAccessPolicy.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Stack/Server/ClientAccessPolicy.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Stack\Server\ClientAccessPolicy.xml</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Types">
+					<ResourceMapSubtree name="Schemas">
+						<NamedResource name="BuiltInTypes.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Core/Types/Schemas/BuiltInTypes.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Core\Types\Schemas\BuiltInTypes.xml</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Opc.Ua.Sample">
+				<ResourceMapSubtree name="Boiler">
+					<NamedResource name="Boiler.NodeSet.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/Boiler/Boiler.NodeSet.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\Boiler\Boiler.NodeSet.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Boiler.NodeSet2.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/Boiler/Boiler.NodeSet2.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\Boiler\Boiler.NodeSet2.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Boiler.PredefinedNodes.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/Boiler/Boiler.PredefinedNodes.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\Boiler\Boiler.PredefinedNodes.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BoilerDesign.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/Boiler/BoilerDesign.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\Boiler\BoilerDesign.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="MemoryBuffer">
+					<NamedResource name="MemoryBuffer.NodeSet.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/MemoryBuffer/MemoryBuffer.NodeSet.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\MemoryBuffer\MemoryBuffer.NodeSet.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MemoryBuffer.NodeSet2.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/MemoryBuffer/MemoryBuffer.NodeSet2.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\MemoryBuffer\MemoryBuffer.NodeSet2.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MemoryBuffer.PredefinedNodes.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/MemoryBuffer/MemoryBuffer.PredefinedNodes.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\MemoryBuffer\MemoryBuffer.PredefinedNodes.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MemoryBufferDesign.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/MemoryBuffer/MemoryBufferDesign.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\MemoryBuffer\MemoryBufferDesign.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Opc.Ua.Sample.rd.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/Properties/Opc.Ua.Sample.rd.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\Properties\Opc.Ua.Sample.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="TestData">
+					<NamedResource name="TestData.NodeSet.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/TestData/TestData.NodeSet.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\TestData\TestData.NodeSet.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TestData.NodeSet2.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/TestData/TestData.NodeSet2.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\TestData\TestData.NodeSet2.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TestData.PredefinedNodes.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/TestData/TestData.PredefinedNodes.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\TestData\TestData.PredefinedNodes.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TestDataDesign.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Sample/TestData/TestDataDesign.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Sample\TestData\TestDataDesign.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Opc.Ua.Server">
+				<ResourceMapSubtree name="AddressSpace">
+					<ResourceMapSubtree name="Model">
+						<NamedResource name="Opc.Ua.NodeSet.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Server/AddressSpace/Model/Opc.Ua.NodeSet.xml">
+							<Candidate type="Path">
+								<Value>Opc.Ua.Server\AddressSpace\Model\Opc.Ua.NodeSet.xml</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Opc.Ua.Server.rd.xml" uri="ms-resource://DataLink-uwp/Files/Opc.Ua.Server/Properties/Opc.Ua.Server.rd.xml">
+						<Candidate type="Path">
+							<Value>Opc.Ua.Server\Properties\Opc.Ua.Server.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Properties">
 				<NamedResource name="Default.rd.xml" uri="ms-resource://DataLink-uwp/Files/Properties/Default.rd.xml">
@@ -25115,6 +25338,661 @@
 			<NamedResource name="InvalidOperation_ClaimCannotBeRemoved" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Claims.SR/InvalidOperation_ClaimCannotBeRemoved">
 				<Candidate type="String">
 					<Value>The Claim '{0}' was not able to be removed.  It is either not part of this Identity or it is a claim that is owned by the Principal that contains this Identity. For example, the Principal will own the claim when creating a GenericPrincipal with roles. The roles will be exposed through the Identity that is passed in the constructor, but not actually owned by the Identity.  Similar logic exists for a RolePrincipal.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.System.Security.Cryptography.Algorithms.SR">
+			<NamedResource name="ArgumentNull_Buffer" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/ArgumentNull_Buffer">
+				<Candidate type="String">
+					<Value>Buffer cannot be null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentOutOfRange_NeedNonNegNum" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/ArgumentOutOfRange_NeedNonNegNum">
+				<Candidate type="String">
+					<Value>Non-negative number required.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentOutOfRange_NeedPosNum" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/ArgumentOutOfRange_NeedPosNum">
+				<Candidate type="String">
+					<Value>Positive number required.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidOffLen" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Argument_InvalidOffLen">
+				<Candidate type="String">
+					<Value>Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_HashAlgorithmNameNullOrEmpty" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_HashAlgorithmNameNullOrEmpty">
+				<Candidate type="String">
+					<Value>The hash algorithm name cannot be null or empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidIVSize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_InvalidIVSize">
+				<Candidate type="String">
+					<Value>Specified initialization vector (IV) does not match the block size for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidKeySize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_InvalidKeySize">
+				<Candidate type="String">
+					<Value>Specified key is not a valid size for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidKey_SemiWeak" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_InvalidKey_SemiWeak">
+				<Candidate type="String">
+					<Value>Specified key is a known semi-weak key for '{0}' and cannot be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidKey_Weak" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_InvalidKey_Weak">
+				<Candidate type="String">
+					<Value>Specified key is a known weak key for '{0}' and cannot be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidPadding" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_InvalidPadding">
+				<Candidate type="String">
+					<Value>Specified padding mode is not valid for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_MissingIV" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_MissingIV">
+				<Candidate type="String">
+					<Value>The cipher mode specified requires that an initialization vector (IV) be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_MustTransformWholeBlock" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_MustTransformWholeBlock">
+				<Candidate type="String">
+					<Value>TransformBlock may only process bytes in block sized increments.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_PartialBlock" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_PartialBlock">
+				<Candidate type="String">
+					<Value>The input data is not a complete block.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_PasswordDerivedBytes_FewBytesSalt" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_PasswordDerivedBytes_FewBytesSalt">
+				<Candidate type="String">
+					<Value>Salt is not at least eight bytes.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_PasswordDerivedBytes_InvalidAlgorithm" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_PasswordDerivedBytes_InvalidAlgorithm">
+				<Candidate type="String">
+					<Value>Algorithm is unavailable or is not supported for this operation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_PasswordDerivedBytes_InvalidIV" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_PasswordDerivedBytes_InvalidIV">
+				<Candidate type="String">
+					<Value>The Initialization vector should have the same length as the algorithm block size in bytes.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_RC2_EKS40" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_RC2_EKS40">
+				<Candidate type="String">
+					<Value>EffectiveKeySize value must be at least 40 bits.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_RC2_EKSKS" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_RC2_EKSKS">
+				<Candidate type="String">
+					<Value>KeySize value must be at least as large as the EffectiveKeySize value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_TransformBeyondEndOfBuffer" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_TransformBeyondEndOfBuffer">
+				<Candidate type="String">
+					<Value>Attempt to transform beyond end of buffer.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_UnknownPaddingMode" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/Cryptography_UnknownPaddingMode">
+				<Candidate type="String">
+					<Value>Unknown padding mode used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WorkInProgress" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Algorithms.SR/WorkInProgress">
+				<Candidate type="String">
+					<Value>Implementation in progress.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.System.Security.Cryptography.Cng.SR">
+			<NamedResource name="ArgumentNull_Buffer" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/ArgumentNull_Buffer">
+				<Candidate type="String">
+					<Value>Buffer cannot be null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentOutOfRange_NeedNonNegNum" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/ArgumentOutOfRange_NeedNonNegNum">
+				<Candidate type="String">
+					<Value>Non-negative number required.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidOffLen" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Argument_InvalidOffLen">
+				<Candidate type="String">
+					<Value>Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_ArgECDHKeySizeMismatch" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_ArgECDHKeySizeMismatch">
+				<Candidate type="String">
+					<Value>The keys from both parties must be the same size to generate a secret agreement.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_ArgECDHRequiresECDHKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_ArgECDHRequiresECDHKey">
+				<Candidate type="String">
+					<Value>Keys used with the ECDiffieHellmanCng algorithm must have an algorithm group of ECDiffieHellman.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_ArgECDsaRequiresECDsaKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_ArgECDsaRequiresECDsaKey">
+				<Candidate type="String">
+					<Value>Keys used with the ECDsaCng algorithm must have an algorithm group of ECDsa.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_ArgExpectedECDiffieHellmanCngPublicKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_ArgExpectedECDiffieHellmanCngPublicKey">
+				<Candidate type="String">
+					<Value>DeriveKeyMaterial requires an ECDiffieHellmanCngPublicKey.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_ArgRSAaRequiresRSAKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_ArgRSAaRequiresRSAKey">
+				<Candidate type="String">
+					<Value>Keys used with the RSACng algorithm must have an algorithm group of RSA.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_CngKeyWrongAlgorithm" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_CngKeyWrongAlgorithm">
+				<Candidate type="String">
+					<Value>This key is for algorithm '{0}'. Expected '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_ECXmlSerializationFormatRequired" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_ECXmlSerializationFormatRequired">
+				<Candidate type="String">
+					<Value>XML serialization of an elliptic curve key requires using an overload which specifies the XML format to be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_HashAlgorithmNameNullOrEmpty" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_HashAlgorithmNameNullOrEmpty">
+				<Candidate type="String">
+					<Value>The hash algorithm name cannot be null or empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidAlgorithmGroup" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidAlgorithmGroup">
+				<Candidate type="String">
+					<Value>The algorithm group '{0}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidAlgorithmName" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidAlgorithmName">
+				<Candidate type="String">
+					<Value>The algorithm name '{0}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidCipherMode" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidCipherMode">
+				<Candidate type="String">
+					<Value>Specified cipher mode is not valid for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidIVSize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidIVSize">
+				<Candidate type="String">
+					<Value>Specified initialization vector (IV) does not match the block size for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidKeyBlobFormat" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidKeyBlobFormat">
+				<Candidate type="String">
+					<Value>The key blob format '{0}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidKeySize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidKeySize">
+				<Candidate type="String">
+					<Value>Specified key is not a valid size for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidPadding" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidPadding">
+				<Candidate type="String">
+					<Value>Specified padding mode is not valid for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidProviderName" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidProviderName">
+				<Candidate type="String">
+					<Value>The provider name '{0}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidRsaParameters" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidRsaParameters">
+				<Candidate type="String">
+					<Value>The specified RSA parameters are not valid; both Exponent and Modulus are required fields.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidSignatureAlgorithm" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_InvalidSignatureAlgorithm">
+				<Candidate type="String">
+					<Value>The hash algorithm is not supported for signatures. Only MD5, SHA1, SHA256,SHA384, and SHA512 are supported at this time.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_KeyBlobParsingError" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_KeyBlobParsingError">
+				<Candidate type="String">
+					<Value>Key Blob not in expected format.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_MissingIV" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_MissingIV">
+				<Candidate type="String">
+					<Value>The cipher mode specified requires that an initialization vector (IV) be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_MustTransformWholeBlock" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_MustTransformWholeBlock">
+				<Candidate type="String">
+					<Value>TransformBlock may only process bytes in block sized increments.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_NonCompliantFIPSAlgorithm" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_NonCompliantFIPSAlgorithm">
+				<Candidate type="String">
+					<Value>This implementation is not part of the Windows Platform FIPS validated cryptographic algorithms.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_NotValidPrivateKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_NotValidPrivateKey">
+				<Candidate type="String">
+					<Value>Key is not a valid private key.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_NotValidPublicOrPrivateKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_NotValidPublicOrPrivateKey">
+				<Candidate type="String">
+					<Value>Key is not a valid public or private key.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_OpenEphemeralKeyHandleWithoutEphemeralFlag" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_OpenEphemeralKeyHandleWithoutEphemeralFlag">
+				<Candidate type="String">
+					<Value>The CNG key handle being opened was detected to be ephemeral, but the EphemeralKey open option was not specified.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_OpenInvalidHandle" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_OpenInvalidHandle">
+				<Candidate type="String">
+					<Value>Cannot open an invalid handle.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_PartialBlock" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_PartialBlock">
+				<Candidate type="String">
+					<Value>The input data is not a complete block.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_PlatformNotSupported" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_PlatformNotSupported">
+				<Candidate type="String">
+					<Value>The specified cryptographic algorithm is not supported on this platform.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_RC2_EKSKS2" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_RC2_EKSKS2">
+				<Candidate type="String">
+					<Value>EffectiveKeySize must be the same as KeySize in this implementation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_TlsRequiresLabelAndSeed" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_TlsRequiresLabelAndSeed">
+				<Candidate type="String">
+					<Value>The TLS key derivation function requires both the label and seed properties to be set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_TransformBeyondEndOfBuffer" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_TransformBeyondEndOfBuffer">
+				<Candidate type="String">
+					<Value>Attempt to transform beyond end of buffer.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_UnexpectedTransformTruncation" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_UnexpectedTransformTruncation">
+				<Candidate type="String">
+					<Value>CNG provider unexpectedly terminated encryption or decryption prematurely.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_UnknownPaddingMode" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_UnknownPaddingMode">
+				<Candidate type="String">
+					<Value>Unknown padding mode used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_UnsupportedPaddingMode" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_UnsupportedPaddingMode">
+				<Candidate type="String">
+					<Value>The specified PaddingMode is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_WeakKey" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/Cryptography_WeakKey">
+				<Candidate type="String">
+					<Value>Specified key is a known weak key for this algorithm and cannot be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_Method" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/NotSupported_Method">
+				<Candidate type="String">
+					<Value>Method not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WorkInProgress" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/WorkInProgress">
+				<Candidate type="String">
+					<Value>WorkInProgress.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WorkInProgress_UnsupportedHash" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Cng.SR/WorkInProgress_UnsupportedHash">
+				<Candidate type="String">
+					<Value>Unsupported hash algorithm. RSACng currently supports only MD5, SHA1, SHA256, SHA384 and SHA512.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.System.Security.Cryptography.Encoding.SR">
+			<NamedResource name="ArgumentOutOfRange_Index" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Encoding.SR/ArgumentOutOfRange_Index">
+				<Candidate type="String">
+					<Value>Index was out of range. Must be non-negative and less than the size of the collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidOffLen" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Encoding.SR/Argument_InvalidOffLen">
+				<Candidate type="String">
+					<Value>Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_RankMultiDimNotSupported" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Encoding.SR/Arg_RankMultiDimNotSupported">
+				<Candidate type="String">
+					<Value>Only single dimensional arrays are supported for the requested action.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_Oid_InvalidName" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Encoding.SR/Cryptography_Oid_InvalidName">
+				<Candidate type="String">
+					<Value>No OID value matches this name.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_Oid_InvalidValue" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Encoding.SR/Cryptography_Oid_InvalidValue">
+				<Candidate type="String">
+					<Value>The OID value is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.System.Security.Cryptography.Primitives.SR">
+			<NamedResource name="ArgumentOutOfRange_NeedNonNegNum" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/ArgumentOutOfRange_NeedNonNegNum">
+				<Candidate type="String">
+					<Value>Non-negative number required.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidOffLen" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Argument_InvalidOffLen">
+				<Candidate type="String">
+					<Value>Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidValue" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Argument_InvalidValue">
+				<Candidate type="String">
+					<Value>Value was invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_StreamNotReadable" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Argument_StreamNotReadable">
+				<Candidate type="String">
+					<Value>Stream was not readable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_StreamNotWritable" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Argument_StreamNotWritable">
+				<Candidate type="String">
+					<Value>Stream was not writable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_CryptographyException" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Arg_CryptographyException">
+				<Candidate type="String">
+					<Value>Error occurred during a cryptographic operation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CryptoConfigNotSupported" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/CryptoConfigNotSupported">
+				<Candidate type="String">
+					<Value>Accessing a hash algorithm by manipulating the HashName property is not supported on this platform. Instead, you must instantiate one of the supplied subtypes (such as HMACSHA1.)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_CryptoStream_FlushFinalBlockTwice" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Cryptography_CryptoStream_FlushFinalBlockTwice">
+				<Candidate type="String">
+					<Value>FlushFinalBlock() method was called twice on a CryptoStream. It can only be called once.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidBlockSize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Cryptography_InvalidBlockSize">
+				<Candidate type="String">
+					<Value>Specified block size is not valid for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidCipherMode" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Cryptography_InvalidCipherMode">
+				<Candidate type="String">
+					<Value>Specified cipher mode is not valid for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidIVSize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Cryptography_InvalidIVSize">
+				<Candidate type="String">
+					<Value>Specified initialization vector (IV) does not match the block size for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidKeySize" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Cryptography_InvalidKeySize">
+				<Candidate type="String">
+					<Value>Specified key is not a valid size for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidPaddingMode" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/Cryptography_InvalidPaddingMode">
+				<Candidate type="String">
+					<Value>Specified padding mode is not valid for this algorithm.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HashNameMultipleSetNotSupported" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/HashNameMultipleSetNotSupported">
+				<Candidate type="String">
+					<Value>Setting the hashname after it's already been set is not supported on this platform.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_UnreadableStream" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/NotSupported_UnreadableStream">
+				<Candidate type="String">
+					<Value>Stream does not support reading.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_UnseekableStream" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/NotSupported_UnseekableStream">
+				<Candidate type="String">
+					<Value>Stream does not support seeking.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_UnwritableStream" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.Primitives.SR/NotSupported_UnwritableStream">
+				<Candidate type="String">
+					<Value>Stream does not support writing.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.System.Security.Cryptography.X509Certificates.SR">
+			<NamedResource name="ArgumentOutOfRange_Index" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/ArgumentOutOfRange_Index">
+				<Candidate type="String">
+					<Value>Index was out of range. Must be non-negative and less than the size of the collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidFlag" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Argument_InvalidFlag">
+				<Candidate type="String">
+					<Value>Value of flags is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidNameType" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Argument_InvalidNameType">
+				<Candidate type="String">
+					<Value>The value of 'nameType' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidOffLen" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Argument_InvalidOffLen">
+				<Candidate type="String">
+					<Value>Offset and length were out of bounds for the array or count is greater than the number of elements from index to the end of the source collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Argument_InvalidOidValue" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Argument_InvalidOidValue">
+				<Candidate type="String">
+					<Value>The OID value was invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_EmptyOrNullArray" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_EmptyOrNullArray">
+				<Candidate type="String">
+					<Value>Array may not be empty or null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_EmptyOrNullString" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_EmptyOrNullString">
+				<Candidate type="String">
+					<Value>String cannot be empty or null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_EnumIllegalVal" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_EnumIllegalVal">
+				<Candidate type="String">
+					<Value>Illegal enum value: {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_InvalidHandle" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_InvalidHandle">
+				<Candidate type="String">
+					<Value>Invalid handle.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_OutOfRange_NeedNonNegNum" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_OutOfRange_NeedNonNegNum">
+				<Candidate type="String">
+					<Value>Non-negative number required.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_RankMultiDimNotSupported" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_RankMultiDimNotSupported">
+				<Candidate type="String">
+					<Value>Only single dimensional arrays are supported for the requested action.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Arg_RemoveArgNotFound" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Arg_RemoveArgNotFound">
+				<Candidate type="String">
+					<Value>Cannot remove the specified item because it was not found in the specified Collection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Chain_NoPolicyMatch" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Chain_NoPolicyMatch">
+				<Candidate type="String">
+					<Value>The certificate has invalid policy.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_FileStatusError" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_FileStatusError">
+				<Candidate type="String">
+					<Value>Unable to get file status.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InsufficientFilePermissions" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_InsufficientFilePermissions">
+				<Candidate type="String">
+					<Value>Invalid file permissions. The file '{0}' must be readable and writable by the owner.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidContextHandle" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_InvalidContextHandle">
+				<Candidate type="String">
+					<Value>The chain context handle is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidDirectoryPermissions" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_InvalidDirectoryPermissions">
+				<Candidate type="String">
+					<Value>Invalid directory permissions. The directory '{0}' must be readable, writable and executable by the owner. It must not be readable, writable or executable by anyone other than the owner.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidHandle" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_InvalidHandle">
+				<Candidate type="String">
+					<Value>{0} is an invalid handle.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidOID" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_InvalidOID">
+				<Candidate type="String">
+					<Value>Object identifier (OID) is unknown.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_InvalidStoreHandle" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_InvalidStoreHandle">
+				<Candidate type="String">
+					<Value>The store handle is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_OwnerNotCurrentUser" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_OwnerNotCurrentUser">
+				<Candidate type="String">
+					<Value>The owner of '{0}' is not the current user.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_TooBroadFilePermissions" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_TooBroadFilePermissions">
+				<Candidate type="String">
+					<Value>Invalid file permissions. The file '{0}' must not be readable or writable by anyone other than the owner.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_Unix_X509_MachineStoresReadOnly" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_Unix_X509_MachineStoresReadOnly">
+				<Candidate type="String">
+					<Value>Unix LocalMachine X509Stores are read-only for all users.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_Unix_X509_MachineStoresRootOnly" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_Unix_X509_MachineStoresRootOnly">
+				<Candidate type="String">
+					<Value>Unix LocalMachine X509Store is limited to the Root and CertificateAuthority stores.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_ExportFailed" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_ExportFailed">
+				<Candidate type="String">
+					<Value>The certificate export operation failed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_ExtensionMismatch" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_ExtensionMismatch">
+				<Candidate type="String">
+					<Value>The parameter should be an X509Extension.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_InvalidContentType" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_InvalidContentType">
+				<Candidate type="String">
+					<Value>Invalid content type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_InvalidFindType" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_InvalidFindType">
+				<Candidate type="String">
+					<Value>Invalid find type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_InvalidFindValue" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_InvalidFindValue">
+				<Candidate type="String">
+					<Value>Invalid find value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_KeyMismatch" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_KeyMismatch">
+				<Candidate type="String">
+					<Value>The public key of the certificate does not match the value specified.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_PKCS7_NoSigner" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_PKCS7_NoSigner">
+				<Candidate type="String">
+					<Value>Cannot find the original signer.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_StoreNoFileAvailable" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_StoreNoFileAvailable">
+				<Candidate type="String">
+					<Value>The X509 certificate could not be added to the store because all candidate file names were in use.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_StoreNotFound" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_StoreNotFound">
+				<Candidate type="String">
+					<Value>The specified X509 certificate store does not exist.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_StoreNotOpen" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_StoreNotOpen">
+				<Candidate type="String">
+					<Value>The X509 certificate store has not been opened.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cryptography_X509_StoreReadOnly" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Cryptography_X509_StoreReadOnly">
+				<Candidate type="String">
+					<Value>The X509 certificate store is read-only.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidOperation_EnumNotStarted" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/InvalidOperation_EnumNotStarted">
+				<Candidate type="String">
+					<Value>Enumeration has not started.  Call MoveNext.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPublicKeyInX509" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/InvalidPublicKeyInX509">
+				<Candidate type="String">
+					<Value>Cannot obtain public key from X509Certificate. Public Key ASN.1 is in an unexpected format.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_ECDsa_Csp" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/NotSupported_ECDsa_Csp">
+				<Candidate type="String">
+					<Value>CryptoApi ECDsa keys are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_Export_MultiplePrivateCerts" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/NotSupported_Export_MultiplePrivateCerts">
+				<Candidate type="String">
+					<Value>Only one certificate with a private key can be exported in a single PFX.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_InvalidKeyImpl" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/NotSupported_InvalidKeyImpl">
+				<Candidate type="String">
+					<Value>Only asymmetric keys that implement ICspAsymmetricAlgorithm are supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NotSupported_KeyAlgorithm" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/NotSupported_KeyAlgorithm">
+				<Candidate type="String">
+					<Value>The certificate key algorithm is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PersistedFiles_NoHomeDirectory" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/PersistedFiles_NoHomeDirectory">
+				<Candidate type="String">
+					<Value>The home directory of the current user could not be determined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Security_InvalidValue" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Security_InvalidValue">
+				<Candidate type="String">
+					<Value>The {0} value was invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Unknown_Error" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/Unknown_Error">
+				<Candidate type="String">
+					<Value>Unknown error.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WorkInProgress" uri="ms-resource://DataLink-uwp/FxResources.System.Security.Cryptography.X509Certificates.SR/WorkInProgress">
+				<Candidate type="String">
+					<Value>WorkInProgress.</Value>
 				</Candidate>
 			</NamedResource>
 		</ResourceMapSubtree>

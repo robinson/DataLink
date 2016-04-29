@@ -1,2 +1,7 @@
 C:\Users\lth\Source\Repos\DataLink\DataLink.Core\bin\x64\Debug\DataLink.Core.pri
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.pri
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\bin\x64\Debug\Opc.Ua.Sample.pri
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\bin\x64\Debug\Opc.Ua.Core.pri
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Client\bin\x64\Debug\Opc.Ua.Client.pri
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Configuration\bin\x64\Debug\Opc.Ua.Configuration.pri
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\bin\x64\Debug\Opc.Ua.Server.pri

@@ -72,6 +72,15 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\Newtonsoft.Json\8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\runtime.win7.System.Security.Cryptography.Algorithms\4.0.0-beta-23516\runtimes\win7\lib\dotnet5.4\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\runtime.win7.System.Security.Cryptography.Encoding\4.0.0-beta-23516\runtimes\win7\lib\dotnet5.4\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\runtime.win7.System.Security.Cryptography.X509Certificates\4.0.0-beta-23516\runtimes\win7\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.AppContext\4.0.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
@@ -276,6 +285,12 @@
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.Security.Claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.Security.Cryptography.Cng\4.0.0-beta-23516\lib\dotnet5.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.Security.Cryptography.Primitives\4.0.0-beta-23516\lib\dotnet5.4\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\.nuget\packages\System.Security.Principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
     </AppxPackagedFile>
@@ -339,6 +354,21 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.dll">
       <PackagePath>DataLink.Driver.S7.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Configuration\bin\x64\Debug\Opc.Ua.Configuration.dll">
+      <PackagePath>Opc.Ua.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\bin\x64\Debug\Opc.Ua.Core.dll">
+      <PackagePath>Opc.Ua.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\bin\x64\Debug\Opc.Ua.Sample.dll">
+      <PackagePath>Opc.Ua.Sample.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\bin\x64\Debug\Opc.Ua.Server.dll">
+      <PackagePath>Opc.Ua.Server.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\DataLink.Config.xml">
+      <PackagePath>DataLink.Config.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLink.xml">
       <PackagePath>Data\DataLink.xml</PackagePath>
     </AppxPackagedFile>
@@ -354,8 +384,107 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLinkTags.xml">
       <PackagePath>Data\DataLinkTags.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Data\DataLink.Config.xml">
+      <PackagePath>Data\DataLink.Config.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\Boiler\Boiler.NodeSet.xml">
+      <PackagePath>Opc.Ua.Sample\Boiler\Boiler.NodeSet.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\Boiler\Boiler.NodeSet2.xml">
+      <PackagePath>Opc.Ua.Sample\Boiler\Boiler.NodeSet2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\Boiler\Boiler.PredefinedNodes.xml">
+      <PackagePath>Opc.Ua.Sample\Boiler\Boiler.PredefinedNodes.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\Boiler\BoilerDesign.xml">
+      <PackagePath>Opc.Ua.Sample\Boiler\BoilerDesign.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\MemoryBuffer\MemoryBuffer.NodeSet.xml">
+      <PackagePath>Opc.Ua.Sample\MemoryBuffer\MemoryBuffer.NodeSet.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\MemoryBuffer\MemoryBuffer.NodeSet2.xml">
+      <PackagePath>Opc.Ua.Sample\MemoryBuffer\MemoryBuffer.NodeSet2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\MemoryBuffer\MemoryBuffer.PredefinedNodes.xml">
+      <PackagePath>Opc.Ua.Sample\MemoryBuffer\MemoryBuffer.PredefinedNodes.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\MemoryBuffer\MemoryBufferDesign.xml">
+      <PackagePath>Opc.Ua.Sample\MemoryBuffer\MemoryBufferDesign.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\Properties\Opc.Ua.Sample.rd.xml">
+      <PackagePath>Opc.Ua.Sample\Properties\Opc.Ua.Sample.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\TestData\TestData.NodeSet.xml">
+      <PackagePath>Opc.Ua.Sample\TestData\TestData.NodeSet.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\TestData\TestData.NodeSet2.xml">
+      <PackagePath>Opc.Ua.Sample\TestData\TestData.NodeSet2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\TestData\TestData.PredefinedNodes.xml">
+      <PackagePath>Opc.Ua.Sample\TestData\TestData.PredefinedNodes.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\TestData\TestDataDesign.xml">
+      <PackagePath>Opc.Ua.Sample\TestData\TestDataDesign.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Properties\Opc.Ua.Core.rd.xml">
+      <PackagePath>Opc.Ua.Core\Properties\Opc.Ua.Core.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Schema\Opc.Ua.NodeSet.xml">
+      <PackagePath>Opc.Ua.Core\Schema\Opc.Ua.NodeSet.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Schema\Opc.Ua.NodeSet2.xml">
+      <PackagePath>Opc.Ua.Core\Schema\Opc.Ua.NodeSet2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part10.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part10.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part11.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part11.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part13.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part13.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part3.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part3.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part4.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part4.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part5.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part5.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part8.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part9.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part9.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.Part999.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.Part999.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.NodeSet2.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.NodeSet2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Generated\Opc.Ua.PredefinedNodes.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Generated\Opc.Ua.PredefinedNodes.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Stack\Server\ClientAccessPolicy.xml">
+      <PackagePath>Opc.Ua.Core\Stack\Server\ClientAccessPolicy.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Types\Schemas\BuiltInTypes.xml">
+      <PackagePath>Opc.Ua.Core\Types\Schemas\BuiltInTypes.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Client\Properties\Opc.Ua.Client.rd.xml">
+      <PackagePath>Opc.Ua.Client\Properties\Opc.Ua.Client.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\AddressSpace\Model\Opc.Ua.NodeSet.xml">
+      <PackagePath>Opc.Ua.Server\AddressSpace\Model\Opc.Ua.NodeSet.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\Properties\Opc.Ua.Server.rd.xml">
+      <PackagePath>Opc.Ua.Server\Properties\Opc.Ua.Server.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -383,6 +512,18 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Client\bin\x64\Debug\Opc.Ua.Client.dll">
+      <PackagePath>Opc.Ua.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Schema\ApplicationConfiguration.xsd">
+      <PackagePath>Opc.Ua.Core\Schema\ApplicationConfiguration.xsd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Schema\Opc.Ua.Types.xsd">
+      <PackagePath>Opc.Ua.Core\Schema\Opc.Ua.Types.xsd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Schema\SecuredApplication.xsd">
+      <PackagePath>Opc.Ua.Core\Schema\SecuredApplication.xsd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

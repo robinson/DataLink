@@ -15,6 +15,7 @@ namespace DataLink
         private static IList<DataLink.Core.Application> _activedApplications;
         DataLogging _dataLogging = new DataLogging();
         AzureDevice _azureDevice = new AzureDevice();
+        OpcServer _opcServer = new OpcServer();
         public void LoadSetting()
         {
             var applications = Bootstrapper.LoadApplications("Data/DataLink.xml");
@@ -74,6 +75,7 @@ namespace DataLink
                     _azureDevice.Start();
                 }
             }
+            _opcServer.Start();
         }
     }
 }

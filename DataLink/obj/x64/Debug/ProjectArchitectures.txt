@@ -1,3 +1,13 @@
 C:\Users\lth\Source\Repos\DataLink\DataLink.Core\DataLink.Core.csproj;x64
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\DataLink.Driver.S7.csproj;x64
 C:\Users\lth\Source\Repos\DataLink\DataLink\DataLink.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Common\Opc.Ua.Sample.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Opc.Ua.Core.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Opc.Ua.Core.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Opc.Ua.Core.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Opc.Ua.Core.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Opc.Ua.Core.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Client\Opc.Ua.Client.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Configuration\Opc.Ua.Configuration.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\Opc.Ua.Server.csproj;x64
+C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\Opc.Ua.Server.csproj;x64

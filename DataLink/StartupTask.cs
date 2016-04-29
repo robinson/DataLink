@@ -23,13 +23,14 @@ namespace DataLink
             {
                 dlApp.Start();
             });
+            while (true) ;
 
             //DataLogging dataLogging = new DataLogging();
             //dataLogging.LoadSetting();
             //dataLogging.Initial();
             //ThreadPool.RunAsync(workItem =>
             //{
-                //dataLogging.Start();
+            //dataLogging.Start();
             //});
             //WebServer server = new WebServer();
             //ThreadPool.RunAsync(workItem =>

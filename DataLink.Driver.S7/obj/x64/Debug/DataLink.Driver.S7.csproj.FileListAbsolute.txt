@@ -17,7 +17,6 @@ C:\Users\lth\Documents\Visual Studio 2015\Projects\DataLink\DataLink.Driver.S7\o
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\bin\x64\Debug\DataLink.Driver.S7.pri
-C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\obj\x64\Debug\DataLink.Driver.S7.csprojResolveAssemblyReference.cache
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\obj\x64\Debug\DataLink.Driver.S7.dll
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\obj\x64\Debug\DataLink.Driver.S7.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink.Driver.S7\obj\x64\Debug\priconfig.xml
