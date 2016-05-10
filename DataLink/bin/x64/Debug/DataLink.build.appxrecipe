@@ -366,6 +366,9 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Server\bin\x64\Debug\Opc.Ua.Server.dll">
       <PackagePath>Opc.Ua.Server.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Client\bin\x64\Debug\Opc.Ua.Client.dll">
+      <PackagePath>Opc.Ua.Client.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\DataLink.Config.xml">
       <PackagePath>DataLink.Config.xml</PackagePath>
     </AppxPackagedFile>
@@ -512,9 +515,6 @@
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\DataLink\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\SDK\Client\bin\x64\Debug\Opc.Ua.Client.dll">
-      <PackagePath>Opc.Ua.Client.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lth\Source\Repos\DataLink\OpcUa\Core\Schema\ApplicationConfiguration.xsd">
       <PackagePath>Opc.Ua.Core\Schema\ApplicationConfiguration.xsd</PackagePath>

@@ -75,7 +75,8 @@ namespace DataLink
                     _azureDevice.Start();
                 }
             }
-            _opcServer.Start();
+            //comment out
+            //_opcServer.Start();
         }
     }
 }

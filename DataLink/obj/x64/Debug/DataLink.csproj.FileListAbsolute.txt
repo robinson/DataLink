@@ -203,6 +203,8 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLinkTags.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Schema\ApplicationConfiguration.xsd
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Schema\Opc.Ua.Types.xsd
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Schema\SecuredApplication.xsd
+C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Config.xml
+C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLink.Config.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.winmd
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.pdb
 C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\resources.pri
@@ -415,5 +417,3 @@ C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\qualifiers.txt.interme
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\resources.pri.xml
 C:\Users\lth\Source\Repos\DataLink\DataLink\obj\x64\Debug\ProjectArchitectures.txt
-C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\Data\DataLink.Config.xml
-C:\Users\lth\Source\Repos\DataLink\DataLink\bin\x64\Debug\DataLink.Config.xml

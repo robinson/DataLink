@@ -50,13 +50,13 @@
         <ActivatableClass ActivatableClassId="DataLink.AzureDevice" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Utility" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Bootstrapper" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Tag" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Job" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Core.Command" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Machine" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="DataLink.Core.Application" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Core.Historian" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Application" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Machine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Job" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="DataLink.Core.AzureIot" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DataLink.Core.Tag" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

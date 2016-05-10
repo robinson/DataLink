@@ -38,7 +38,7 @@ namespace Opc.Ua.Client
     /// <summary>
     /// Stores the options to use for a browse operation.
     /// </summary>
-    [DataContract(Namespace=Namespaces.OpcUaXsd)]
+    [DataContract(Namespace=XNamespace.OpcUaXsd)]
     public class Browser
     {
         #region Constructors
